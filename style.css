@@ -1,0 +1,130 @@
+body {
+    background-color: #f9dbe9;
+    font-family: "Segoe UI", sans-serif;
+    color: #333;
+  }
+  
+  form {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  input:focus {
+    outline: none;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff7eb9;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  
+  #mensagem {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    text-align: center;
+    display: none;
+  }
+  
+  #mensagem p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  audio {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+  }
+  
+  audio {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+  }
+  
+  audio::-webkit-media-controls-panel {
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0 10px;
+  }
+  
+  audio::-webkit-media-controls-volume-slider {
+    width: 50%;
+  }
+  
+  audio::-webkit-media-controls-timeline {
+    height: 4px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 4px;
+  }
+  
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    font-size: 14px;
+    margin: 10px;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+
+  #carrossel {
+    display: flex; /* permite centralizar itens */
+    justify-content: center; /* centraliza itens horizontalmente */
+    align-items: center; /* centraliza itens verticalmente */
+  }
+  
+  #carrossel img {
+    max-width: 20%; /* define o tamanho máximo da imagem */
+  }
+
+  video {
+    display: block; /* define o vídeo como um elemento de bloco */
+    width: 20%; /* define a largura do vídeo como 100% do contêiner pai */
+    height: auto; /* ajusta a altura do vídeo proporcionalmente à largura */
+    margin: 0 auto; /* centraliza o vídeo horizontalmente */
+    outline: none; /* remove a borda padrão ao redor do vídeo */
+  }
+  
+  
+  
